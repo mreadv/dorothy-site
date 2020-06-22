@@ -31,10 +31,11 @@
 
   <header>
     <div class="content-wrapper">
-      <div class="logo-area">
-        <a href="#"><img src="" alt="dorothy delong photo logo"></a>
-        <p>Dorothy DeLong</p>
-      </div>
+      <a href="index.html">
+        <figure>
+          <img src="img/logo.svg" alt="dorothy delong photo logo">
+        </figure>
+      </a>
       <div class="header-divider"></div>
       <nav>
         <ul>
@@ -54,7 +55,7 @@
   <main>
 
 
-    <section class="about">
+    <section id="about">
       <div class="content-wrapper">
         <div class="about-divider"></div>
         <h1>About</h1>
@@ -67,7 +68,7 @@
     </section>
 
 
-    <section>
+    <section id="portfolio">
       <div class="content-wrapper">
         <h1>Portfolio</h1>
         <div class="portfolio-items">
@@ -93,12 +94,12 @@
 
 
 
-  <footer>
+  <footer id="contact">
 
     <div class="content-wrapper">
       <div class="footer-content">
+        <h1>Contact</h1>
         <address class="contact">
-          <h4>Get in touch!</h4>
           <p>
             555-555-5555<br>
             hello@dorothydelongphoto.com
@@ -132,9 +133,14 @@
                 <i class="fab fa-flickr"></i>
               </a>
             </p>
-           
-            
-
+          </div> <!-- social-icons div ends -->
+        </div> <!-- social div ends -->
+      </div> <!-- footer-content div ends -->
+      <div class="copyright">
+      <p>Copyright 2020 | Dorothy DeLong Photo</p>
+    </div>
+    </div> <!-- content-wrapper div ends -->
+    
 
   </footer>
 
@@ -154,7 +160,6 @@
 
 
 
-  <p>Boilerplate.</p>
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>

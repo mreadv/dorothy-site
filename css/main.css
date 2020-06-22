@@ -98,6 +98,149 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/* ----------- General ------------*/
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'source sans pro', sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Archivo black', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+/* ----------- Base Header - Footer Styles ----------*/
+
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header {
+  background-color: #23001E;
+  padding: 15px 0;
+  border: 1px solid lightgreen;
+}
+
+header .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid yellow;
+}
+
+header figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid pink;
+}
+
+
+
+header figure img {
+  width: 60%;
+}
+
+.header-divider {
+  background: #3a3a3a; 
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+header nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid pink;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #B50356;
+  text-align: center;
+}
+
+footer .content-wrapper {
+  width: 90%;
+}
+
+
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
+/* ----------- Main (About) ----------*/
+
+#about {
+  background-color: #ffffff;
+  color: #23001E;
+  display: flex;
+  
+  align-items: center;
+}
+
+
+/* ---------- Main (Portfolio) ----------*/
+
+#portfolio {
+  background-color: #1C918C;
+}
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
