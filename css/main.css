@@ -118,8 +118,8 @@ body {
 
 h1 {
   font-family: 'Archivo black', sans-serif;
+  font-size: 1.5em;
   font-weight: 700;
-  margin: 0;
 }
 
 h4 {
@@ -127,6 +127,7 @@ h4 {
 }
 
 p {
+
   margin: 0;
 }
 
@@ -166,8 +167,6 @@ header figure {
   border: 1px solid pink;
 }
 
-
-
 header figure img {
   width: 60%;
 }
@@ -180,19 +179,41 @@ header figure img {
 }
 
 header nav {
-  width: 80%;
+  font-size: 1.125em;
+  font-weight: 300;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   border: 1px solid pink;
 }
 
 header nav ul {
+  list-style: none;
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
+
+header nav ul li {
+  text-decoration: none;
+}
+
+
+/* Override "user agent style" */
+
+ul { 
+  padding:0; 
+}
+
+header nav ul li a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Override "user agent style" */
+
 
 footer {
   background-color: #B50356;
@@ -202,7 +223,6 @@ footer {
 footer .content-wrapper {
   width: 90%;
 }
-
 
 
 footer .social-icons {
@@ -227,15 +247,38 @@ footer .social {
   background-color: #ffffff;
   color: #23001E;
   display: flex;
-  
+  justify-content: center;
   align-items: center;
 }
+
+main #about h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main #about p {
+  margin-
+}
+
+
+.about-divider {
+  background: #23001E; 
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+
 
 
 /* ---------- Main (Portfolio) ----------*/
 
 #portfolio {
   background-color: #1C918C;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 
