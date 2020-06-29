@@ -103,8 +103,17 @@ textarea {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px 0;
+  margin: 50px 25px 50px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
+
+.container {
+  min-width: 360px;
+}
+
 
 html {
   font-size: 16px;
@@ -262,6 +271,7 @@ footer .social {
 
 main #about h1 {
   margin: 20px 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,6 +279,7 @@ main #about h1 {
 
 main #about p {
   margin-bottom: 20px;
+  
 }
 
 
@@ -299,6 +310,7 @@ main #about p {
 }
 
 main #portfolio h1 {
+  width: 100%;
   margin: 0 0 25px 0;
   display: flex;
   justify-content: center;
@@ -311,6 +323,8 @@ main #portfolio .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
 }
+
+
 
 main #portfolio .content-wrapper .portfolio-items .photo-container {
   margin-bottom: 15px;
@@ -329,6 +343,10 @@ main #portfolio .photo-container {
  justify-content: center; 
  align-content: center;
  
+}
+
+main #portfolio .photo-container img {
+  width: 100%;
 }
 
 /*
@@ -391,8 +409,41 @@ main #portfolio .photo-container {
 
 /* ---------- Footer (Contact) ----------*/
 
+footer h1 {
+  margin: 0 0 40px 0;
+  
+}
 
 
+footer  p {
+  margin-bottom: 40px;
+}
+
+.footer-content .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.footer-content .form h4 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.footer-content input {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#contact .input-email {
+  color: #B50356;
+}
 
 
 
