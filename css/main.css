@@ -580,6 +580,20 @@ main #portfolio .photo-container img {
    Modify as content requires.
    ========================================================================== */
 
+
+
+
+
+/* ---------- About Area ----------*/
+
+
+main #about {
+
+}
+
+
+
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
