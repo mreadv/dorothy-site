@@ -101,6 +101,10 @@ textarea {
 
 /* ----------- General ------------*/
 
+
+
+
+
 .content-wrapper {
   width: 90%;
   margin: 50px 25px 50px 25px;
@@ -483,6 +487,15 @@ main #portfolio .photo-container img {
 
 
 
+#tablet-content {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #tablet-content {
+    display:block;
+  }
+}
 
 
 
@@ -587,6 +600,18 @@ main #portfolio .photo-container img {
 
 
   /* General Styles */
+
+
+#mobile-content { 
+display:none; 
+}
+@media screen and (max-width: 500px) {
+#mobile-content { 
+display:block; }
+}
+
+
+
 
   .content-wrapper {
     max-width: 640px;
