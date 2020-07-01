@@ -238,48 +238,30 @@ footer {
   text-align: center;
 }
 
+/*
 footer .footer-content {
-  
+  border: 1px solid lightyellow;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
+*/
 
 footer .content-wrapper {
-  width: 90%;
-}
-
-
-footer .social-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin-top: 40px;
-}
- 
-footer .social-icons i {
-display: flex;
-width: 45px;
-height: 45px;
-text-decoration: none;
-}
-
-footer .social-icons p {
-  font-size: 3.125em;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
 }
-
-.social-icons a {
-  text-decoration: none;
-}
-
 
 footer h1 {
   margin: 0 0 40px 0;
-  
+  width: 100%;  
 }
-
 
 footer  address p {
   margin-bottom: 40px;
@@ -288,28 +270,29 @@ footer  address p {
 
 footer address {
   font-style: normal;
+  width: 100%;
 }
 
-.footer-content .form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.footer-content .form h4 {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 1em;
-  margin-bottom: 15px;
-}
-
-.footer-content input {
-  height: 50px;
+footer .content-wrapper .form {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+footer .content-wrapper .form h4 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1em;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+footer .content-wrapper input {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   border: 1px solid white;
   border-radius: 4px;
 }
@@ -332,8 +315,33 @@ footer .input-button {
 footer .copyright {
   display: flex;
   margin-top: 50px;
-  
-  border: 1px solid white;
+}
+
+footer .social {
+  width: 100%;
+  display: flex;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+ 
+footer .social-icons i {
+width: 45px;
+height: 45px;
+text-decoration: none;
+}
+
+footer .social-icons p {
+  font-size: 3.125em;
+}
+
+.social-icons a {
+  text-decoration: none;
 }
 
 
@@ -360,7 +368,6 @@ main #about h1 {
 main #about p {
   margin-bottom: 20px;
 }
-
 
 #about-divider-1, #about-divider-2 {
   background: #23001E; 
@@ -418,7 +425,6 @@ main #portfolio .photo-container {
  flex-direction: column; 
  justify-content: center; 
  align-content: center;
- 
 }
 
 main #portfolio .photo-container img {
