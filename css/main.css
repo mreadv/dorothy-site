@@ -14,7 +14,7 @@
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 /*
@@ -598,19 +598,83 @@ main #portfolio .photo-container img {
 
 @media screen and (min-width: 768px) {
 
+@media screen and (min-width: 768px) {
+  #tablet-content {
+    display:block;
 
-  /* General Styles */
 
-
-#mobile-content { 
-display:none; 
+  }
+  main #about {
+  background: url('../img/dorothy-headshot-crop3.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
-@media screen and (max-width: 500px) {
-#mobile-content { 
-display:block; }
+
+  main #about .about-content-wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    display: flex;
+    border: 1px solid black;
+  }
+
+  main #about .about-content-wrapper .flex-1 {
+    display: flex;
+  }
+
+  main #about .about-content-wrapper .flex-2 {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: 50%;
+    padding: 0 70px 0 70px;
+    background-color: rgba(255, 255, 255, .6);
+  }
+
+  main #about .about-content-wrapper .sub-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+
+
+  }
+
+  .about-content-wrapper p {
+    font-weight: 500px;
+    display: flex;
+  }
+
+  main #about .about-content-wrapper h3 {
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+      }
+
+  main #about .about-content-wrapper .paragraph-1 {
+    margin: 0;
+    border: 1px solid pink;
+  }
+
+  main #about .about-content-wrapper .paragraph-2 {
+    margin: 0;
+    border: 1px solid pink;
+  }
+
 }
 
 
+
+
+
+
+/* General Styles */
 
 
   .content-wrapper {
@@ -622,15 +686,27 @@ display:block; }
     font-size: 2.5em;
   }
 
+
 }
+
+
+
+
+
+#mobile-content { 
+display:none; 
+}
+@media screen and (max-width: 767px) {
+#mobile-content { 
+display:block; }
+}
+
+
 
 
 /* ---------- About Area ----------*/
 
 
-main #about {
-
-}
 
 
 
