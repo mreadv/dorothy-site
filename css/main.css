@@ -581,7 +581,23 @@ main #portfolio .photo-container img {
    ========================================================================== */
 
 
+/* Tablet Styles Here */
 
+@media screen and (min-width: 768px) {
+
+
+  /* General Styles */
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+}
 
 
 /* ---------- About Area ----------*/
