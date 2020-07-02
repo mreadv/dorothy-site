@@ -129,11 +129,20 @@ body {
   color: #ffffff;
 }
 
+figure {
+  margin: 0;
+}
+
 h1 {
   font-family: 'Archivo black', sans-serif;
   font-size: 1.5em;
   font-weight: 700;
-  margin:;
+  width: 100%;
+  margin: 0 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 h4 {
@@ -192,7 +201,7 @@ header a {
 }
 
 header figure img {
-  width: 60%;
+  width: 55%;
   border: 1px solid lightgreen;
 }
 
@@ -200,15 +209,14 @@ header figure img {
   background: #3a3a3a; 
   height: 1px;
   width: 100%;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 header nav {
   font-size: 1.125em;
   font-weight: 300;
-  width: 90%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   border: 1px solid pink;
@@ -221,6 +229,9 @@ header nav ul {
   justify-content: space-around;
 }
 
+header nav ul li {
+	font-size: 1em;
+}
 
 
 /* Override "user agent style" */
@@ -262,10 +273,6 @@ footer .content-wrapper {
   width: 90%;
 }
 
-footer h1 {
-  margin: 0 0 40px 0;
-  width: 100%;  
-}
 
 footer  address p {
   margin-bottom: 40px;
@@ -399,13 +406,6 @@ main #about p {
   align-items: center;  
 }
 
-main #portfolio h1 {
-  width: 100%;
-  margin: 0 0 25px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 main #portfolio .content-wrapper {
   display: flex;
@@ -486,6 +486,8 @@ main #portfolio .photo-container img {
 }
 
 
+
+/* Hide Tablet Content */
 
 #tablet-content {
   display: none;
@@ -601,9 +603,21 @@ main #portfolio .photo-container img {
 @media screen and (min-width: 768px) {
   #tablet-content {
     display:block;
-
-
   }
+
+
+/* General Styles */
+
+.content-wrapper {
+	max-width: 640px;
+	margin: 100px 0;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 90px;
+}
+
   main #about {
   background: url('../img/dorothy-headshot-crop3.jpg') center no-repeat;
   background-size: cover;
@@ -677,15 +691,7 @@ main #portfolio .photo-container img {
 /* General Styles */
 
 
-  .content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
-  }
-
-  h1 {
-    font-size: 2.5em;
-  }
-
+  
 
 }
 
