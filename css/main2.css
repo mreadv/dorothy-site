@@ -155,247 +155,6 @@ p {
 }
 
 
-/* ----------- Base Header - Footer Styles ----------*/
-
-
-header,
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-header {
-  background-color: #23001E;
-  padding: 15px 0;
-  border: 1px solid lightgreen;
-}
-
-header .content-wrapper {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  border: 1px solid yellow;
-}
-
-
-header figure {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  border: 1px solid pink;
-}
-
-
-header a {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-header figure img {
-  width: 55%;
-  border: 1px solid lightgreen;
-}
-
-.header-divider {
-  background: #3a3a3a; 
-  height: 1px;
-  width: 100%;
-  margin: 10px 0 10px 0;
-}
-
-header nav {
-  font-size: 1.125em;
-  font-weight: 300;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-  border: 1px solid pink;
-}
-
-header nav ul {
-  list-style: none;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-header nav ul li {
-	font-size: 1em;
-}
-
-
-/* Override "user agent style" */
-
-ul { 
-  padding:0; 
-}
-
-header nav ul li a, a:visited, a:hover, a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Override "user agent style" */
-
-
-footer {
-  background-color: #B50356;
-  text-align: center;
-}
-
-/*
-footer .footer-content {
-  border: 1px solid lightyellow;
-   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 100%;
-
-}
-*/
-
-footer .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 90%;
-}
-
-
-footer  address p {
-  margin-bottom: 40px;
-  line-height: 1.75em;
-}
-
-footer address {
-  font-style: normal;
-  width: 100%;
-}
-
-footer .content-wrapper .form {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-footer .content-wrapper .form h4 {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 1em;
-  margin-bottom: 15px;
-  width: 100%;
-}
-
-footer .content-wrapper input {
-  height: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  border: 1px solid white;
-  border-radius: 4px;
-}
-
-footer .input-text {
-  border: 1px solid white;
-  border-radius: 3px;
-  color: #B50356;
-  margin-bottom: 20px;
-  padding-left: 10px;
-}
-
-footer .input-button {
-  background-color: #B50356;
-  color: white;
-  font-weight: 500;
-  padding: 0;
-}
-
-footer .copyright {
-  display: flex;
-  margin-top: 50px;
-}
-
-footer .social {
-  width: 100%;
-  display: flex;
-}
-
-footer .social-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin-top: 40px;
-}
- 
-footer .social-icons i {
-width: 45px;
-height: 45px;
-text-decoration: none;
-}
-
-footer .social-icons p {
-  font-size: 3.125em;
-}
-
-.social-icons a {
-  text-decoration: none;
-}
-
-
-
-
-/* ----------- Main (About) ----------*/
-
-#about {
-  background-color: #ffffff;
-  color: #23001E;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-main #about h1 {
-  margin: 20px 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-main #about p {
-  margin-bottom: 20px;
-}
-
-#about-divider-1, #about-divider-2 {
-  background: #23001E; 
-  height: 1px;
-  width: 100%;
-  margin: 0;
-}
-
-#about-divider-1 {
-  margin-bottom: 20px;
-}
-
-#about-divider-2 {
-  margin-top: 20px;
-}
-
-
 
 /* ---------- Main (Portfolio) ----------*/
 
@@ -412,6 +171,8 @@ main #portfolio .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+
 }
 
 main #portfolio .content-wrapper .portfolio-items .photo-container {
@@ -421,7 +182,6 @@ main #portfolio .content-wrapper .portfolio-items .photo-container {
 main #portfolio .photo-container {
  width: 100%; 
  height: 100%; 
- min-width: 100%; 
  min-height: 100%; 
  position: relative;
  text-align: center;
@@ -620,109 +380,6 @@ h1 {
 
 
 
-/* Header Area */
-
-
-header .content-wrapper {
-	justify-content: space-between;
-	width: 100%;
-	display: flex;
-	flex-flow: row;
-}
-
-header figure {
-	justify-content: flex-start;
-}
-
-header figure img {
-	width: 60%;
-}
-
-
-header nav {
-	width: 60%;
-}
-
-header nav ul {
-	display: flex;
-	justify-content: space-between;
-}
-
-.header-divider {
-	display: none;
-}
-
-
-/********** Main Area **********/
-
-
-
-/********** Main (About) Area **********/
-
-
-main #about {
-	background: url('../img/dorothy-headshot-crop3.jpg') center no-repeat;
-	background-size: cover;
-	min-height: 500px;
-	display: flex;
-	justify-content: center;
-	flex-flow: row wrap;
-}
-
-main #about .about-content-wrapper {
-	width: 100%;
-	height: 100%;
-	min-height: 500px;
-	display: flex;
-	border: 1px solid black;
-}
-
-main #about .about-content-wrapper .flex-1 {
-	display: flex;
-}
-
-main #about .about-content-wrapper .flex-2 {
-
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	flex-flow: row wrap;
-	margin-left: 50%;
-	padding: 0 70px 0 70px;
-	background-color: rgba(255, 255, 255, .6);
-}
-
-  main #about .about-content-wrapper .sub-flex {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-.about-content-wrapper p {
-	font-weight: 500px;
-	display: flex;
-}
-
-main #about .about-content-wrapper h3 {
-	display: flex;
-	font-size: 1.5em;
-	font-weight: 700;
-	margin: 0;
-}
-
-main #about .about-content-wrapper .paragraph-1 {
-	margin: 0;
-	border: 1px solid pink;
-}
-
-  main #about .about-content-wrapper .paragraph-2 {
-    margin: 0;
-    border: 1px solid pink;
-  }
-
-}
-
 
 /********** Main (Portfolio) Area **********/
 
@@ -741,9 +398,11 @@ main #portfolio .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  max-width: none;
 }
 
 main #portfolio .content-wrapper .portfolio-items .photo-container {
+
   margin-bottom: 15px;
 }
 
@@ -754,15 +413,16 @@ main #portfolio .content-wrapper .photo-wrapper {
 	
 }
 
-main #portfolio .photo-container {
+#portfolio .photo-container {
  width: 50%; 
  position: relative;
  text-align: center;
  display: flex; 
- flex-direction: column; 
+ flex-flow: column wrap;
  justify-content: center; 
  align-content: center;
  border: 1px solid red;
+
 }
 
 main #portfolio .photo-container img {
