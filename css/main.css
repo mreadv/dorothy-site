@@ -273,7 +273,6 @@ footer .content-wrapper {
   width: 90%;
 }
 
-
 footer  address p {
   margin-bottom: 40px;
   line-height: 1.75em;
@@ -406,17 +405,12 @@ main #about p {
   align-items: center;  
 }
 
-
 main #portfolio .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
-}
-
-main #portfolio .content-wrapper .portfolio-items .photo-container {
-  margin-bottom: 15px;
 }
 
 main #portfolio .photo-container {
@@ -432,28 +426,8 @@ main #portfolio .photo-container {
 }
 
 main #portfolio .photo-container img {
-  max-width: 100%;
+ width: 100%;
 }
-
-/*
-.caption-content {
-  width: 60%;
-  height: 15%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 92.5%;
-  background-color: rgba(0, 0, 0, .5);
- 
-}
-
-.caption-content p {
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: italic;
-}
-*/
-
 
 .caption-content {
   width: 100%;
@@ -465,7 +439,7 @@ main #portfolio .photo-container img {
 }
 
 .caption-content p {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -648,6 +622,10 @@ header nav ul {
 	justify-content: space-between;
 }
 
+header nav ul li {
+  font-size: 1.125em;
+}
+
 .header-divider {
 	display: none;
 }
@@ -690,6 +668,8 @@ main #about .about-content-wrapper .flex-2 {
 	margin-left: 50%;
 	padding: 0 70px 0 70px;
 	background-color: rgba(255, 255, 255, .6);
+  border: 1px solid hotpink;
+  width: 100%;
 }
 
   main #about .about-content-wrapper .sub-flex {
@@ -697,7 +677,13 @@ main #about .about-content-wrapper .flex-2 {
     justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
+    border: 1px solid red;
+    min-width: 300px;
+    
+
 }
+
+
 
 .about-content-wrapper p {
 	font-weight: 500px;
@@ -708,7 +694,7 @@ main #about .about-content-wrapper h3 {
 	display: flex;
 	font-size: 1.5em;
 	font-weight: 700;
-	margin: 0;
+	margin: 0 0 20px 0;
 }
 
 main #about .about-content-wrapper .paragraph-1 {
