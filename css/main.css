@@ -678,7 +678,8 @@ main #about .about-content-wrapper .flex-2 {
     align-items: center;
     flex-flow: row wrap;
     border: 1px solid red;
-    min-width: 300px;
+    min-width: 250px;
+    width: 70%;
     
 
 }
