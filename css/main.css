@@ -271,6 +271,7 @@ footer .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   width: 90%;
+  border: 1px solid yellow;
 }
 
 footer  address p {
@@ -794,7 +795,24 @@ display:block; }
 
 
 
-/* ---------- About Area ----------*/
+/* ---------- Desktop Styles ----------*/
+
+@media screen and (min-width: 1200px) {
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+h1 {
+  font-size: 4.125em;
+}
+
+#portfolio .content-wrapper {
+  max-width: 960px;
+  border: 1px solid red;
+}
+
+}
 
 
 
