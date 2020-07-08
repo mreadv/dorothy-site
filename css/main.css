@@ -169,7 +169,6 @@ footer {
 header {
   background-color: #23001E;
   padding: 15px 0;
-  border: 1px solid lightgreen;
 }
 
 header .content-wrapper {
@@ -178,7 +177,6 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid yellow;
 }
 
 
@@ -188,7 +186,6 @@ header figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid pink;
 }
 
 
@@ -202,7 +199,6 @@ header a {
 
 header figure img {
   width: 55%;
-  border: 1px solid lightgreen;
 }
 
 .header-divider {
@@ -219,7 +215,6 @@ header nav {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid pink;
 }
 
 header nav ul {
@@ -253,25 +248,12 @@ footer {
   text-align: center;
 }
 
-/*
-footer .footer-content {
-  border: 1px solid lightyellow;
-   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 100%;
-
-}
-*/
-
 footer .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 90%;
-  border: 1px solid yellow;
 }
 
 footer  address p {
@@ -290,9 +272,10 @@ footer .content-wrapper .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin-bottom: 40px;
 }
 
-footer .content-wrapper .form h4 {
+footer .content-wrapper h4 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 1em;
   margin-bottom: 15px;
@@ -326,11 +309,14 @@ footer .input-button {
 footer .copyright {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .social {
   width: 100%;
   display: flex;
+  flex-flow: row wrap;
 }
 
 footer .social-icons {
@@ -338,7 +324,7 @@ footer .social-icons {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 10px;
 }
  
 footer .social-icons i {
@@ -400,7 +386,9 @@ main #about p {
 /* ---------- Main (Portfolio) ----------*/
 
 #portfolio {
-  background-color: #1C918C;
+  /*background-color: #1C918C;*/
+   background: rgb(0,212,255);
+background: linear-gradient(180deg, rgba(0,212,255,1) -7%, rgba(19,75,71,1) 0%, rgba(23,115,110,1) 25%, rgba(28,145,140,1) 50%, rgba(23,115,110,1) 75%, rgba(19,75,71,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -424,6 +412,8 @@ main #portfolio .photo-container {
  flex-direction: column; 
  justify-content: center; 
  align-content: center;
+ margin-bottom: 20px;
+ border: 2px solid white;
 }
 
 main #portfolio .photo-container img {
@@ -445,7 +435,7 @@ main #portfolio .photo-container img {
   justify-content: center;
   align-items: flex-end;
   position: absolute;
-  bottom: 1px;
+  bottom: 0;
   background-color: rgba(98, 98, 98, .7);
 }
 
@@ -653,7 +643,6 @@ main #about .about-content-wrapper {
 	height: 100%;
 	min-height: 500px;
 	display: flex;
-	border: 1px solid black;
 }
 
 main #about .about-content-wrapper .flex-1 {
@@ -669,7 +658,6 @@ main #about .about-content-wrapper .flex-2 {
 	margin-left: 50%;
 	padding: 0 70px 0 70px;
 	background-color: rgba(255, 255, 255, .6);
-  border: 1px solid hotpink;
   width: 100%;
 }
 
@@ -681,11 +669,7 @@ main #about .about-content-wrapper .flex-2 {
     border: 1px solid red;
     min-width: 250px;
     width: 70%;
-    
-
 }
-
-
 
 .about-content-wrapper p {
 	font-weight: 500px;
@@ -694,19 +678,17 @@ main #about .about-content-wrapper .flex-2 {
 
 main #about .about-content-wrapper h3 {
 	display: flex;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	font-weight: 700;
 	margin: 0 0 20px 0;
 }
 
 main #about .about-content-wrapper .paragraph-1 {
 	margin: 0;
-	border: 1px solid pink;
 }
 
-  main #about .about-content-wrapper .paragraph-2 {
+main #about .about-content-wrapper .paragraph-2 {
     margin: 0;
-    border: 1px solid pink;
   }
 
 }
@@ -717,12 +699,15 @@ main #about .about-content-wrapper .paragraph-1 {
 
 
 #portfolio {
-  background-color: #1C918C;
+  /*background-color: #1C918C;*/
+ 
   display: flex;
   justify-content: center;
   align-items: center;  
-}
 
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
 
 main #portfolio .content-wrapper {
   display: flex;
@@ -730,31 +715,28 @@ main #portfolio .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   max-width: none;
+  margin: 100px 0 0 0;
+
+
+
 }
 
-main #portfolio .content-wrapper .portfolio-items .photo-container {
-  margin-bottom: 15px;
-}
 
 main #portfolio .content-wrapper .photo-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 
-#portfolio .photo-container {
+main #portfolio .photo-container {
  width: 50%; 
  position: relative;
  text-align: center;
  display: flex; 
-
 flex-basis: 50%;
+margin-bottom: 0;
+border: none;
 }
-
-
-
-
 
 .photo-wrapper {
   display: flex;
@@ -767,8 +749,26 @@ main #portfolio .photo-container img {
   width: 100%;
 }
 
+.caption-content {
+  width: 33%;
+}
 
 
+main .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-basis: 100%;
+  background: linear-gradient(180deg, rgba(0,212,255,.9) -7%, rgba(74,98,97,.9) 0%, rgba(33,45,45,.9) 47%, rgba(34,50,50,.9) 73%, rgba(23,45,43,.9) 100%), url("../img/moment-web-3.jpg");
+  background-position: center;
+  min-height: 225px;
+  border-top: 2px solid white;
+}
+
+main .quote p {
+  font-size: 1.25em;
+}
 
 
 
@@ -795,6 +795,8 @@ display:block; }
 
 
 
+
+
 /* ---------- Desktop Styles ----------*/
 
 @media screen and (min-width: 1200px) {
@@ -803,14 +805,53 @@ display:block; }
   max-width: 960px;
 }
 
-h1 {
-  font-size: 4.125em;
+main #portfolio .content-wrapper {
+  max-width: 1500px;
 }
 
-#portfolio .content-wrapper {
-  max-width: 960px;
-  border: 1px solid red;
+h1 {
+  font-size: 3.75em;
 }
+
+footer .content-wrapper {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-direction: row;
+
+}
+
+footer .content-wrapper .copyright {
+  width: 100%;
+}
+
+footer .contact-info,
+footer .form,
+footer .social {
+  flex-basis: 30%;
+}
+
+
+ main #about .about-content-wrapper .sub-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    border: 1px solid red;
+    max-width: 500px;
+}
+
+main #about .about-content-wrapper h3 {
+ 
+  font-size: 2em;
+ 
+}
+
+
+main .quote {
+  min-height: 350px;
+}
+
 
 }
 
