@@ -272,7 +272,7 @@ footer .content-wrapper .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 footer .content-wrapper h4 {
@@ -324,13 +324,13 @@ footer .social-icons {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 10px;
 }
  
 footer .social-icons i {
 width: 45px;
 height: 45px;
 text-decoration: none;
+color: white;
 }
 
 footer .social-icons p {
@@ -436,7 +436,9 @@ main #portfolio .photo-container img {
   align-items: flex-end;
   position: absolute;
   bottom: 0;
-  background-color: rgba(98, 98, 98, .7);
+  background-color: rgba(98, 98, 98, .8);
+  font-style: italic;
+  font-size: .875em;
 }
 
 #portfolio .expand-button {
@@ -666,7 +668,6 @@ main #about .about-content-wrapper .flex-2 {
     justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
-    border: 1px solid red;
     min-width: 250px;
     width: 70%;
 }
@@ -684,7 +685,7 @@ main #about .about-content-wrapper h3 {
 }
 
 main #about .about-content-wrapper .paragraph-1 {
-	margin: 0;
+	margin-bottom: 10px;
 }
 
 main #about .about-content-wrapper .paragraph-2 {
@@ -753,6 +754,13 @@ main #portfolio .photo-container img {
   width: 33%;
 }
 
+.caption-content p {
+  bottom: 0;
+  color: rgba(10, 41, 39, 1);
+  background-color: rgba(240, 240, 240, .8);
+}
+
+
 
 main .quote {
   display: flex;
@@ -760,17 +768,15 @@ main .quote {
   align-items: center;
   text-align: center;
   flex-basis: 100%;
-  background: linear-gradient(180deg, rgba(0,212,255,.9) -7%, rgba(74,98,97,.9) 0%, rgba(33,45,45,.9) 47%, rgba(34,50,50,.9) 73%, rgba(23,45,43,.9) 100%), url("../img/moment-web-3.jpg");
+  background: linear-gradient(180deg, rgba(23,115,110,.9) 9%, rgba(19,75,71,.9) 100%), url("../img/moment-web-3.jpg");
   background-position: center;
-  min-height: 225px;
+  min-height: 240px;
   border-top: 2px solid white;
 }
 
 main .quote p {
   font-size: 1.25em;
 }
-
-
 
 
 
@@ -831,13 +837,20 @@ footer .social {
   flex-basis: 30%;
 }
 
+footer .social-icons {
+  margin-top: 0;
+  align-items: flex-start;
+  line-height: 1em;
+}
+
+
+
 
  main #about .about-content-wrapper .sub-flex {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
-    border: 1px solid red;
     max-width: 500px;
 }
 
