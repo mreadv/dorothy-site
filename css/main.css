@@ -768,7 +768,8 @@ main .quote {
 }
 
 main .quote p {
-  font-size: 1.25em;
+  font-size: 1.125em;
+  font-weight: 300;
 }
 
 
